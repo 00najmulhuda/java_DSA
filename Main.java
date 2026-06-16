@@ -7,3 +7,12 @@ public class Main{
         System.out.println("JDK - JAVA DEVELOPMENT KIT");
     }
 }
+
+class Number{
+    public static void main(String[] args) {
+        int age = 23;
+        String name = "Najmul";
+        System.out.println(age + 2);
+        System.out.println(name);
+    }
+}
