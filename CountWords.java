@@ -7,12 +7,14 @@ public class CountWords{
         System.out.print("enter words : ");
         String word = sc.nextLine();
 
-        int count = 0;
+        int count = 1;
 
         for(int i = 0; i < word.length(); i++){
             char ch = word.charAt(i);
-            count++;
+            if(ch == ' '){
+                count++;
+            }
         }
-        System.out.println(word + " " + count);
+        System.out.println(count);
     }
 }
