@@ -95,5 +95,5 @@ Building skills for:
 * AI Full Stack Development
 * Software Engineering Internships
 * Product-Based Company Placements
-* MultiTech Lab
+
 
