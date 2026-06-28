@@ -1,12 +1,10 @@
 public class Main{
     public static void main(String[] args) {
-        Student s1 = new Student();
-
-        s1.name = "Najmul";
-        s1.age = 23;
-        s1.cgpa = 8.0;
+        Student s1 = new Student("Najmul",23,8.0);
+        Student s2 = new Student("Huda",20,8.0);
 
         System.out.println(s1.name + " " + s1.age + " " + s1.cgpa);
+        System.out.println(s2.name + " " + s2.age + " " + s2.cgpa);
     }
 }
 
