@@ -3,8 +3,8 @@ public class Main{
         Student s1 = new Student("Najmul",23,8.0);
         Student s2 = new Student("Huda",20,8.0);
 
-        System.out.println(s1.name + " " + s1.age + " " + s1.cgpa);
-        System.out.println(s2.name + " " + s2.age + " " + s2.cgpa);
+        s1.display();
+        s2.display();
     }
 }
 

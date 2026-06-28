@@ -8,5 +8,8 @@ public class Student{
         this.age = age;
         this.cgpa = cgpa;
     }
+    void display(){
+        System.out.println(name + " " + age + " " + cgpa);
+    }
 
 }
