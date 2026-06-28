@@ -3,10 +3,10 @@ public class Student{
     int age;
     double cgpa;
 
-    Student(String n, int a, double c){
-        name = n;
-        age = a;
-        cgpa = c;
+    Student(String name, int age, double cgpa){
+        this.name = name;
+        this.age = age;
+        this.cgpa = cgpa;
     }
 
 }
