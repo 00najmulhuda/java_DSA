@@ -1,0 +1,17 @@
+# Java compiled files
+*.class
+
+# VS Code / Cursor settings
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
